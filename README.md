@@ -1,5 +1,3 @@
-readme_content = """# PPD Lab — Laboratório III — Comunicação Indireta com MQTT
-
 Este repositório entrega a atividade do **Laboratório III** de Programação Paralela e Distribuída.
 - **Atividade — `minerador.py`**: Sistema distribuído que implementa eleição de líder, coordenação e mineração (Proof of Work) utilizando o protocolo MQTT.
 
@@ -140,4 +138,5 @@ Os nós não-líderes recebem o desafio e iniciam o *brute-force* (tentativa e e
 O Líder recebe a solução, verifica o hash SHA-1 e declara o resultado.
 * **Log:** `>>> T1 FINALIZADA. Vencedor: [ID do Minerador]`
 * **MQTT:** Publica em `sd/result`.
+
 * **Ação:** O ciclo reinicia imediatamente com a Transação T2."
